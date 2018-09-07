@@ -1,0 +1,376 @@
+	html, body {margin: 0;max-width: 100%;overflow: hidden;} 
+	/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+/* Portrait */
+@media screen and (max-device-width: 320px) and (min-device-height: 568px){
+
+  .logo-cent{
+  		display: none;
+		padding-top: 50px;
+		margin-left: 11%;
+		margin-bottom: 30px;
+		width: 250px;
+		height: 140px;
+	}
+	.logo-cent-small{
+		margin-top: 18% !important;
+		margin-left: 18% !important;
+		margin-bottom: 14% !important;
+	}
+  		.menuItem{
+			width:50% !important;
+		display:inline-block !important;
+		background: #00b386;
+		border:2px solid white;
+		border-radius: 8px;
+	}
+		.title{
+		text-align: center;
+		color:white;
+		margin-top: -6%;
+		margin-bottom: 18%;
+		font-weight: 6px;
+	}
+	.fa-cen{
+		text-align: center; 
+		display: inline-block; 
+		margin-top: 22% !important;
+	}
+	div a:hover{
+		text-decoration: none;
+	}
+	.fa-2x{
+		color:white;
+		margin-top: 5%;
+		color:white;
+	}
+	h6 span{
+		display: none;
+	}
+}
+
+@media screen and (max-device-width: 568px) and (min-device-height: 320px) and (orientation: landscape){
+
+.logo-cent{
+		display: block;
+		margin-top: 19%;
+		margin-left: 18%;
+		margin-bottom: 30px;
+		
+	}
+	.fullback{
+		display: none;
+	}
+	.logo-cent-small{
+		display: none;
+	}
+}
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+/* Landscape */
+
+
+	/* ----------- iPhone 4 and 4S ----------- */
+	/* Portrait and Landscape */
+@media screen and (min-device-width: 320px) and (max-device-height: 480px)
+ {
+
+  	.logo-cent{
+  		display: none;
+		padding-top: 50px;
+		margin-left: 11%;
+		margin-bottom: 30px;
+		width: 250px;
+		height: 140px;
+	}
+	.logo-cent-small{
+		margin-top: 15% !important;
+		margin-left: 18% !important;
+		margin-bottom: 12% !important;
+	}
+  		.menuItem{
+			width:50% !important;
+		display:inline-block !important;
+		background: #00b386;
+		border:2px solid white;
+		border-radius: 8px;
+	}
+		.title{
+		text-align: center;
+		color:white;
+		margin-top: -6%;
+		margin-bottom: 15%;
+		font-weight: 6px;
+	}
+	.fa-cen{
+		text-align: center; 
+		display: inline-block; 
+		margin-top: 20% !important;
+	}
+	div a:hover{
+		text-decoration: none;
+	}
+	.fa-2x{
+		color:white;
+		margin-top: 5%;
+		color:white;
+	}
+	h6 span{
+		display: none;
+	}
+}
+/* Landscape */
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+/* Landscape */
+
+/* ----------- Galaxy S4, S5 and Note 3 ----------- */
+/* Portrait */
+@media screen and (min-device-width: 320px) and (min-device-height: 569px)
+  {
+  	 .logo-cent{
+  		display: none;
+		padding-top: 50px;
+		margin-left: 11%;
+		margin-bottom: 30px;
+		width: 250px;
+		height: 140px;
+	}
+	.logo-cent-small{
+		margin-top: 23% !important;
+		margin-left: 18% !important;
+		margin-bottom: 14% !important;
+	}
+  		.menuItem{
+			width:50% !important;
+		display:inline-block !important;
+		background: #00b386;
+		border:2px solid white;
+		border-radius: 8px;
+	}
+		.title{
+		text-align: center;
+		color:white;
+		margin-top: -5%;
+		margin-bottom: 27%;
+		font-weight: 6px;
+	}
+	.fa-cen{
+		text-align: center; 
+		display: inline-block; 
+		margin-top: 27% !important;
+	}
+	div a:hover{
+		text-decoration: none;
+	}
+	.fa-2x{
+		color:white;
+		margin-top: 5%;
+		color:white;
+	}
+	h6 span{
+		display: none;
+	}
+  }
+
+/* ----------- Galaxy S6 ----------- */
+/* Portrait */
+@media screen and (min-device-width: 360px) and (min-device-height: 569px)
+  {
+  	 .logo-cent{
+  		display: none;
+		padding-top: 50px;
+		margin-left: 11%;
+		margin-bottom: 30px;
+		width: 250px;
+		height: 140px;
+	}
+	.logo-cent-small{
+		margin-top: 22% !important;
+		margin-left: 18% !important;
+		margin-bottom: 14% !important;
+	}
+  		.menuItem{
+			width:50% !important;
+		display:inline-block !important;
+		background: #00b386;
+		border:2px solid white;
+		border-radius: 8px;
+	}
+		.title{
+		text-align: center;
+		color:white;
+		margin-top: -5%;
+		margin-bottom: 23%;
+		font-weight: 6px;
+	}
+	.fa-cen{
+		text-align: center; 
+		display: inline-block; 
+		margin-top: 23% !important;
+	}
+	div a:hover{
+		text-decoration: none;
+	}
+	.fa-2x{
+		color:white;
+		margin-top: 5%;
+		color:white;
+	}
+	h6 span{
+		display: none;
+	}
+  }
+
+  /* ----------- p20 lite ----------- */
+/* Portrait */
+@media screen and (min-device-width: 321px) and (min-device-height: 660px)
+  {
+  	 .logo-cent{
+  	 	display: block;
+		margin-top: 10% !important;
+		margin-left: 14% !important;
+		margin-bottom: 16% !important;
+	}
+	.logo-cent-small{
+		display: none;
+		margin-top: 28% !important;
+		margin-left: 18% !important;
+		margin-bottom: 17% !important;
+	}
+  		.menuItem{
+			width:50% !important;
+		display:inline-block !important;
+		background: #00b386;
+		border:2px solid white;
+		border-radius: 8px;
+	}
+		.title{
+		text-align: center;
+		color:white;
+		margin-top: -5%;
+		margin-bottom: 25%;
+		font-weight: 6px;
+	}
+	.fa-cen{
+		text-align: center; 
+		display: inline-block; 
+		margin-top: 25% !important;
+	}
+	div a:hover{
+		text-decoration: none;
+	}
+	.fa-2x{
+		color:white;
+		margin-top: 5%;
+		color:white;
+	}
+	h6 span{
+		display: none;
+	}
+  }
+  /* ----------- very common ----------- */
+  /* Portrait */
+@media screen and (min-device-width: 375px) and (min-device-height: 667px)
+  {
+  	 .logo-cent{
+  	 	display: block;
+		margin-top: 8% !important;
+		margin-left: 14% !important;
+		margin-bottom: 15% !important;
+	}
+	.logo-cent-small{
+		display: none;
+		margin-top: 28% !important;
+		margin-left: 18% !important;
+		margin-bottom: 17% !important;
+	}
+  		.menuItem{
+			width:50% !important;
+		display:inline-block !important;
+		background: #00b386;
+		border:2px solid white;
+		border-radius: 8px;
+	}
+		.title{
+		text-align: center;
+		color:white;
+		margin-top: -5%;
+		margin-bottom: 22%;
+		font-weight: 6px;
+	}
+	.fa-cen{
+		text-align: center; 
+		display: inline-block; 
+		margin-top: 22% !important;
+	}
+	div a:hover{
+		text-decoration: none;
+	}
+	.fa-2x{
+		color:white;
+		margin-top: 5%;
+		color:white;
+	}
+	h6 span{
+		display: none;
+	}
+  }
+
+  /* -----------very common in india ----------- */
+  @media screen and (min-device-width: 412px) and (min-device-height: 732px)
+  {
+  	 .logo-cent{
+  	 	display: block;
+		margin-top: 8% !important;
+		margin-left: 19% !important;
+		margin-bottom: 15% !important;
+	}
+	.logo-cent-small{
+		display: none;
+		margin-top: 28% !important;
+		margin-left: 18% !important;
+		margin-bottom: 17% !important;
+	}
+  		.menuItem{
+			width:50% !important;
+		display:inline-block !important;
+		background: #00b386;
+		border:2px solid white;
+		border-radius: 8px;
+	}
+		.title{
+		text-align: center;
+		color:white;
+		margin-top: -5%;
+		margin-bottom: 25%;
+		font-weight: 6px;
+	}
+	.fa-cen{
+		text-align: center; 
+		display: inline-block; 
+		margin-top: 25% !important;
+	}
+	div a:hover{
+		text-decoration: none;
+	}
+	.fa-2x{
+		color:white;
+		margin-top: 5%;
+		color:white;
+	}
+	h6 span{
+		display: none;
+	}
+  }
+
+   /* -----------very common in india ----------- */
+  @media screen and (min-device-width: 732px) and (min-device-height: 412px) and (orientation: landscape)
+  {
+  	.logo-cent{
+		margin-top: 100px !important;
+		margin-left: 50% !important;
+		
+	}
+	.fullback{
+		display: none;
+	}
+}
