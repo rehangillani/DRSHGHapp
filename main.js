@@ -1,6 +1,6 @@
 $(document).ready(function () {
-    if($(window).height() == 480) {
-       $("span").removeClass("fa-3x lg-5s"); 
+    if($(window).height() < 560) {
+       $("span").removeClass("fa-2x"); 
 
     } 
     if($(window).height() == 568) {
