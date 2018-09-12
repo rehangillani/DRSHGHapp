@@ -55,24 +55,30 @@
   	 .logo-cent{
 		width: 100vw !important;
 		max-width: 100% !important;
-		height: 40vh !important;
-		padding-top: 13vh !important;
+		height: 35vh !important;
+		padding-top: 15vh !important;
 		position:absolute;
-  left:0;
-  top:0;
-  right:0;
-  bottom:0;
-  background:url('logo_3.png') 50% 50% no-repeat;
+ 		left:0;
+  		top:0;
+  		right:0;
+  		bottom:0;
+  		background:url('logo_3.png') 50% 50% no-repeat;
 	}
 	.logo-cent-small{
-		display: none;
-		margin-top: 28% !important;
-		margin-left: 18% !important;
-		margin-bottom: 17% !important;
+		width: 100vw !important;
+		max-width: 100% !important;
+		height: 35vh !important;
+		padding-top: 15vh !important;
+		position:absolute;
+  		left:0;
+  		top:0;
+  		right:0;
+  		bottom:0;
+  		background:url('logo_2.png') 50% 50% no-repeat;
 	}
   		.menuItem{
 			width:50vw !important;
-			height: 20vh !important;
+			height: 21.4vh !important;
 		display:inline-block !important;
 		background: #00b386;
 		border:2px solid white;
@@ -82,7 +88,7 @@
 		text-align: center;
 		color:white;
 		margin-top: -1vh !important;
-		margin-bottom: 4vh !important;
+		margin-bottom: 22% !important;
 		font-weight: .5rem;
 	}
 	.fa-cen{
@@ -97,7 +103,6 @@
 		text-decoration: none;
 	}
 	.fa-2x{
-		height: 5vh;
 		color:white;
 		margin-top: 4vh !important;
 	}
@@ -105,7 +110,7 @@
 		display: none;
 	}
 	.fullback{
-		margin-top: 40vh !important;
+		margin-top: 35vh !important;
 	}
   }
 
