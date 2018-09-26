@@ -1,4 +1,4 @@
-	html, body {margin: 0;max-width: 100%;overflow: hidden;} 
+html, body {margin: 0;max-width: 100%;overflow: hidden;} 
 	/* ----------- iPhone 5, 5S, 5C and 5SE 
   /* ----------- p20 lite ----------- */
 /* Portrait
@@ -50,8 +50,9 @@
   ----------- */
   /* ----------- very common ----------- */
   /* Portrait */
-@media screen and (min-device-width: 200px)
-  {
+	  .fullback-landscape{
+		  display: none;
+	  }
   	 .logo-cent{
 		width: 100vw !important;
 		max-width: 100% !important;
@@ -94,7 +95,6 @@
 	.fa-cen{
 		text-align: center; 
 		display: inline-block; 
-		margin-top: 22% !important;
 		color: white;
 		height: 50%;
 		width:50%;
@@ -104,7 +104,7 @@
 	}
 	.fa-2x{
 		color:white;
-		margin-top: 4vh !important;
+		margin-top: 18% !important;
 	}
 	h6 span{
 		display: none;
@@ -112,6 +112,60 @@
 	.fullback{
 		margin-top: 35vh !important;
 	}
+
+
+  /* landscape new*/
+  @media screen and (max-device-width: 1080px) and (orientation:landscape)
+  {
+	.logo-cent, .fullback{
+		height: 0vh !important;
+		display: none;
+	}
+	.fullback-landscape{
+		display: block;
+		margin-top: 33.3vh !important;		
+	}
+	.logo-cent-small{
+		width: 100vw !important;
+		max-width: 100% !important;
+		height: 35vh !important;
+		padding-top: 15vh !important;
+		position:absolute;
+  		left:0;
+  		top:0;
+  		right:0;
+  		bottom:0;
+  		background:url('logo_2.png') 50% 50% no-repeat;
+	}
+		.menuItem{
+			width:33.3vw !important;
+			height: 33vh !important;
+		display:inline !important;
+		background: #00b386;
+		border:2px solid white;
+		border-radius: 8px;
+	}
+	.title{
+	text-align: center;
+	color:white;
+	margin-top: -1vh !important;
+	margin-bottom:-10px !important;
+	font-weight: .5rem;
+}
+.fa-cen{
+	text-align: center; 
+	display: inline-block; 
+	color: white;
+	height: 50%;
+	width:50%;
+	padding-top: 0% !important;
+}
+div a:hover{
+	text-decoration: none;
+}
+.fa-2x{
+	color:white;
+}
   }
 
   /* -----------very common in india 
